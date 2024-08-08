@@ -1,0 +1,51 @@
+@use "./variable" as *;
+
+/* 
+
+
+
+---01 TYPOGRAPHY SYSTEM
+-FONT SIZES (px)
+  10 / 12 / 14 / 16 / 18 / 20 / 24 / 30 / 36 / 44 / 52 / 62 / 74 / 86 / 98
+
+-FONT WEIGHT:
+Default: 400
+
+-LINE HEIGHTS: 
+  Default: 1 
+
+
+
+---02 COLORS
+-PRIMARY: 
+-Tints : #45c4f9
+-Shades
+-Accents: 
+-Greys
+
+---05 SHADOWS
+
+---06 BORDER-RADIUS
+
+---07 WHITESPACE
+
+---SPACING SYSTEM
+  2 / 4 / 8 / 12 / 16 / 24 / 32 / 48 / 64  / 80 / 96 / 128
+
+Users font size relative to the screen size = 62.5%
+
+*/
+
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+html,
+body,
+#root {
+	height: 100%;
+	width: 100%;
+	font-family: "Poppins", sans-serif;
+}

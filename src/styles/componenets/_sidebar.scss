@@ -1,0 +1,57 @@
+@use "../base/index.scss" as *;
+
+.container-sidebar {
+	height: 100vh;
+	display: flex;
+	flex-direction: column;
+
+	box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+	justify-content: space-between;
+	width: 200px;
+	align-items: center;
+
+	display: flex;
+	align-items: center;
+	flex-direction: column;
+
+	.items {
+		display: flex;
+		flex-direction: column;
+		width: 100%;
+		li {
+			align-items: flex-end;
+			display: flex;
+			cursor: pointer;
+			padding: 24px 24px;
+			justify-content: flex-start;
+			gap: 12px;
+			transition: all 0.2s;
+			&:hover {
+				// background-color: $tint-blue;
+				box-shadow: rgba(0, 0, 0, 0.15) 0px 2px 8px;
+			}
+		}
+	}
+
+	.logout-wrapper {
+		display: flex;
+		align-items: center;
+		gap: 12px;
+		width: 100%;
+		justify-content: center;
+		padding: 24px 24px;
+		border-top: 1px solid $accent-grey;
+		cursor: pointer;
+		&:hover {
+			// background: linear-gradient(56deg, #45c4f9, #7d09ff 50.33%, #ff0be5);
+			// color: white;
+			background-color: #fa5252;
+		}
+	}
+	.icon-img {
+		height: 25px;
+	}
+	.logo-img {
+		height: 50px;
+	}
+}
